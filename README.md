@@ -1,4 +1,4 @@
-# GISTEMP4 Data Processing Pipeline
+# GISTEMP4.0 Data Processing Pipeline
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/gistemp4/blob/main/gistemp4.ipynb)
 
