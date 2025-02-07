@@ -47,9 +47,9 @@ Processed outputs are packaged in `results.zip` containing:
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ras0k/gistemp4/blob/main/LICENSE) file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](https://chat.deepseek.com/a/chat/s/LICENSE) file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 * * *
 
