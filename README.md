@@ -1,6 +1,5 @@
 # GISTEMP4 Data Processing Pipeline
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/gistemp4/blob/main/gistemp4.ipynb)
 
 A Python workflow for processing NASA's GISTEMP v4 global temperature data using original Fortran scientific routines. This pipeline automates data download, preprocessing, and analysis while offering performance optimizations.
@@ -47,6 +46,8 @@ Processed outputs are packaged in `results.zip` containing:
     
 
 ## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 This project is licensed under the MIT License - see the [LICENSE](https://chat.deepseek.com/a/chat/s/LICENSE) file for details.
 
