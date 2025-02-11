@@ -1,6 +1,6 @@
-# GISTEMP4.0 Data Processing Pipeline
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/gistemp4/blob/main/gistemp4.ipynb)
+
+# GISTEMP4.0 Data Processing Pipeline
 
 A Python workflow for processing NASA's GISTEMP v4 global temperature data using original Fortran scientific routines. This pipeline automates data download, preprocessing, and analysis while offering performance optimizations.
 
