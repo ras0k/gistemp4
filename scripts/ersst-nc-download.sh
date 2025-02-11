@@ -1,15 +1,12 @@
-#/bin/sh
-# download ersst data from
-ersst_url=https://www.ncei.noaa.gov/pub/data/cmb/ersst/v5/netcdf
-#start year and end year to download
-yr_start=2024
-yr_end=$(date +%Y)
-
-for iy in $(seq $yr_start $yr_end)
-do
-  for im in {01..12}
-  do
-     echo "downloading data for $iy $im"
-     wget -q -nc -nd -P. -nv ${ersst_url}/ersst.v5.$iy$im.nc
+yr=2024
+while [ $yr -le 2025 ]; do
+  nm=1
+  while [ $nm -le 12 ]; do
+    if [ $nm -lt 10 ]; then
+      nm=0$nm
+    fi
+    wget https://www.ncei.noaa.gov/pub/data/cmb/ersst/v5/netcdf/ersst.v5.$yr$nm.nc
+    nm=`expr $nm + 1`
   done
+  yr=`expr $yr + 1`
 done
