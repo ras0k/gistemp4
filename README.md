@@ -26,8 +26,6 @@ A Python workflow for processing NASA's GISTEMP v4 global temperature data using
 
 ### High Priority
     
--   ⚡ Implement PyPy3 runtime for faster operations
-    
 -   🔧 Investigate numpy compatibility issues (temporary fix using v1.23.1)
 
     
