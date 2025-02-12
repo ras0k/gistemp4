@@ -25,12 +25,10 @@ A Python workflow for processing NASA's GISTEMP v4 global temperature data using
 ## To-Do List
 
 ### High Priority
-
--   🛠 Integrate FORTRAN pre-processing scripts into main pipeline
     
 -   ⚡ Implement PyPy3 runtime for faster operations
     
--   🔧 Resolve numpy compatibility issues (temporary fix using v1.23.1)
+-   🔧 Investigate numpy compatibility issues (temporary fix using v1.23.1)
 
     
 
@@ -38,7 +36,7 @@ A Python workflow for processing NASA's GISTEMP v4 global temperature data using
 
 Processed outputs are packaged in `results.zip` containing:
 
--   Global temperature anomaly calculations
+-   Global temperature anomaly calculations (mixedGLB.Ts.ERSSTV5.GHCN.CL.PA.txt)
     
 -   Intermediate processing artifacts
     
