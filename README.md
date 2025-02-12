@@ -25,8 +25,6 @@ A Python workflow for processing NASA's GISTEMP v4 global temperature data using
 ## To-Do List
 
 ### High Priority
-
--   🛠 Integrate FORTRAN pre-processing scripts into main pipeline
     
 -   ⚡ Implement PyPy3 runtime for faster operations
     
