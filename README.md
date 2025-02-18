@@ -22,7 +22,7 @@ This pipeline automates data download, preprocessing, and analysis while offerin
 
 1.  Open the [Colab notebook](https://colab.research.google.com/github/ras0k/gistemp4/blob/main/gistemp4.ipynb)
     
-2.  Run all cells sequentially
+2.  Run all cells sequentially (**"Runtime > Run all"** or **Ctrl+F9**)
 
     
 
