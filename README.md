@@ -10,9 +10,9 @@ This pipeline automates data download, preprocessing, and analysis while offerin
 
 -   Automated download of NASA's official GISTEMP v4 source package
     
--   Compatibility management for legacy scientific code
+-   Enhanced performance by using PyPy
     
--   Results packaging in standardized formats
+-   Compatibility management for legacy scientific code
     
 -   Designed for both execution on cloud notebook environments (Colab)
     
