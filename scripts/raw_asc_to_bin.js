@@ -6,7 +6,7 @@ const execFilePromise = util.promisify(execFile);
 
 const rawFolder = path.join(__dirname, 'raw_ascii');
 const asciiFolder = path.join(__dirname, 'ascii');
-const binFolder = path.join(__dirname, 'bin');
+const binFolder = path.join(__dirname, 'input_files');
 const linesPerFile = 180;
 
 async function processAsciiFiles() {
@@ -97,7 +97,7 @@ async function processBinFiles() {
       console.log(`Executing: ./asc2bin.exe ${args.join(' ')}`);
 
       try {
-        const { stdout, stderr } = await execFilePromise('./asc2bin.exe', args);
+        const { stdout, stderr } = await execFilePromise('./asc2bin', args);
         if (stdout) console.log(`stdout: ${stdout}`);
         if (stderr) console.error(`stderr: ${stderr}`);
       } catch (error) {
