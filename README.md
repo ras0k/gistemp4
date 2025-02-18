@@ -2,7 +2,9 @@
 
 # GISTEMP4.0 Data Processing Pipeline
 
-A Python workflow for processing NASA's GISTEMP v4 global temperature data using original Fortran scientific routines. This pipeline automates data download, preprocessing, and analysis while offering performance optimizations.
+A Python workflow for processing NASA's global temperature data using GISTEMP v4. 
+
+This pipeline automates data download, preprocessing, and analysis while offering performance optimizations.
 
 ## Features
 
