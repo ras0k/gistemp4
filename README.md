@@ -12,7 +12,7 @@ A Python workflow for processing NASA's GISTEMP v4 global temperature data using
     
 -   Results packaging in standardized formats
     
--   Designed for both local execution and cloud notebook environments
+-   Designed for both execution on cloud notebook environments (Colab)
     
 ## Usage
 
@@ -22,23 +22,15 @@ A Python workflow for processing NASA's GISTEMP v4 global temperature data using
     
 2.  Run all cells sequentially
 
-## To-Do List
-
-### High Priority
-    
--   🔧 Investigate numpy compatibility issues (temporary fix using v1.23.1)
-
     
 
 ## Results
 
-Processed outputs are packaged in `results.zip` containing:
 
--   Global temperature anomaly calculations (mixedGLB.Ts.ERSSTV5.GHCN.CL.PA.txt)
-    
--   Intermediate processing artifacts
-    
--   Diagnostic logs and metadata
+
+The results are printed out and can also be found in the file:
+
+**"/content/gistemp4.0/tmp/result/mixedGLB.Ts.ERSSTV5.GHCN.CL.PA.txt"**
     
 
 ## License
