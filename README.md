@@ -14,7 +14,7 @@ This pipeline automates data download, preprocessing, and analysis while offerin
     
 -   Compatibility management for legacy scientific code
     
--   Designed for both execution on cloud notebook environments (Colab)
+-   Designed for execution on cloud notebook environments (Colab) 
     
 ## Usage
 
