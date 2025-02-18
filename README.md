@@ -24,6 +24,8 @@ This pipeline automates data download, preprocessing, and analysis while offerin
     
 2.  Run all cells sequentially (**"Runtime > Run all"** or **Ctrl+F9**)
 
+4.  Wait 15 minutes
+
     
 
 ## Results
@@ -33,7 +35,9 @@ This pipeline automates data download, preprocessing, and analysis while offerin
 The results are printed out and can also be found in the file:
 
 **"/content/gistemp4.0/tmp/result/mixedGLB.Ts.ERSSTV5.GHCN.CL.PA.txt"**
-    
+
+![Results](https://i.imgur.com/ye6IOes.png)
+
 
 ## License
 
